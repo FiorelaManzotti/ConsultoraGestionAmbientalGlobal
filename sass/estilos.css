@@ -19,7 +19,8 @@ header {
   left: 0;
 }
 header .titulo {
-  background-image: url(../images/medioambiente.jpg);
+  background-color: 0;
+  background-image: url(../img/hoja.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0%;

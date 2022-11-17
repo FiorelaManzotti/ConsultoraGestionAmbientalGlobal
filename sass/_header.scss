@@ -6,7 +6,8 @@ header{
     top: 0;
     left: 0;
     .titulo{
-        background-image: url(../images/medioambiente.jpg);
+        background-color: green($color: #000000);
+        background-image: url(../img/hoja.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 0%; 
