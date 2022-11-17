@@ -19,36 +19,31 @@ body header img {
 }
 
 body header div {
-  width: 100%;
-  background-color: #cce0a8;
+  width: 90%;
+  background-color: #a7a8A0;
+  border-radius: 10px;
+  margin: 10px;
 }
 
-/* .navbar{
-    background-color: #333;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    .navbar-nav{
-        align-items: baseline;
-        li{
-            padding-left: 30px;
-            a{
-                text-align: center;
-                align-content: flex-start;
-                transition: all 500ms ease;
-                border-bottom: 2px solid transparent;
-                font-size: 20px;
-                &:hover{
-                    color: $color5;
-                    border-bottom: 2px solid $color4;
-                    transform: scale(120%);
-                }
-            }
-        }
-    }
+body header div .nav .nav-item {
+  padding: 8px;
 }
-} */
+
+body header div .nav .nav-item a {
+  text-align: center;
+  align-content: flex-start;
+  transition: all 500ms ease;
+  border-bottom: 2px solid transparent;
+  font-size: 20px;
+  color: #1D1D1D;
+}
+
+body header div .nav .nav-item a:hover {
+  color: rgb(81, 116, 29);
+  border-bottom: 2px solid #CCE0A8;
+  transform: scale(120%);
+}
+
 .footer {
   width: 100%;
   background-color: #333;
@@ -322,6 +317,81 @@ body header div {
     //fin mq pag quienes somos
 } 
 // fin mq min 1024px 
-// fin estilo media queries */ /*# sourceMappingURL=estilos.css.map */
+// fin estilo media queries */
+#principal {
+  height: auto;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+#principal h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: #b0d390;
+}
+
+#principal h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1rem;
+  color: #a7a8a0;
+}
+
+#principal p {
+  font-size: 18px;
+  text-align: center;
+  padding: 1.5rem;
+  color: #1d1d1d;
+  font-weight: 500;
+}
+
+#quienesSomos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/hoja.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#quienesSomos h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1rem;
+  color: #a7a8a0;
+}
+
+#quienesSomos p {
+  font-size: 18px;
+  text-align: center;
+  padding: 1.5rem;
+  color: #1d1d1d;
+  font-weight: 500;
+}
+
+#quienesSomos .nosotras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+#quienesSomos .nosotras .card {
+  margin: 1rem;
+  background-color: red;
+}
+
+#quienesSomos .nosotras .card .card-text {
+  text-align: center;
+  font-weight: 500;
+} /*# sourceMappingURL=estilos.css.map */
 
 /*# sourceMappingURL=estilos.css.map */

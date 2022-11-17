@@ -1,0 +1,30 @@
+#principal{
+    height: auto;
+    width: 100%;
+    background-color: whitesmoke;
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 1rem;
+        color: #b0d390;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 1rem;
+        color: #a7a8a0;
+    }
+    p{
+        font-size: 18px;
+        text-align: center;
+        padding: 1.5rem;
+        color: #1d1d1d;
+        font-weight: 500;
+    }
+}
+
+
