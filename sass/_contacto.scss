@@ -1,0 +1,77 @@
+//inicio estilos pag contacto
+#contacto{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    //estilo a video
+    video{
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    //estilo a form de contacto
+    form{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+        padding: 30px;
+        width: 80%;
+        height: 100vh;
+        .contact-title{
+            font-size: 30px;
+            font-weight: 600;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            color: $color3;
+        }
+        .label{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .input{
+            height: 30px;
+            outline: none;
+            padding: 5px 0;
+            border-bottom: 2px solid $color5;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 100%;
+            color: #121212;
+            background-color: transparent;
+        } 
+        .textarea{
+            height: 100px;
+            outline: none;
+            padding: 5px 0;
+            border-bottom: 2px solid $color5;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            width: 100%;
+            color: #121212;
+            background-color: transparent;
+            resize: none;
+        }
+        //estilo a boton de enviar
+        .boton{
+            padding: 18px 55px;
+            background-color: #121212;
+            border-radius: 50px;
+            color: #f2f2f2;
+            font-weight: 600;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            &:hover{
+                background-color: $color5;
+            }
+        }
+
+    }
+}
+//fin estilos pag contacto
