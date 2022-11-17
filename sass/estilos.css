@@ -2,7 +2,6 @@ body {
   margin: 0;
   border: 0;
 }
-
 body header {
   background-color: whitesmoke;
   width: 100%;
@@ -12,12 +11,10 @@ body header {
   flex-direction: column;
   align-items: center;
 }
-
 body header img {
   border-radius: 20px;
   height: 40vh;
 }
-
 body header div {
   width: 100%;
   background-color: #cce0a8;
@@ -53,7 +50,6 @@ body header div {
   width: 100%;
   background-color: #333;
 }
-
 .footer .grupo1 {
   width: 90%;
   max-width: 800px;
@@ -63,52 +59,42 @@ body header div {
   grid-gap: 35px;
   padding: 50px 0px;
 }
-
 .footer .grupo1 .box {
   text-align: center;
 }
-
 .footer .grupo1 .box iframe {
   width: 250px;
   height: 150px;
 }
-
 .footer .grupo1 .box p {
   color: #efefef;
   padding: 10px;
   text-align: center;
 }
-
 .footer .grupo1 .box h4 {
   color: #fff;
   margin-bottom: 25px;
   font-size: 20px;
   text-align: center;
 }
-
 .footer .grupo1 .box ul {
   list-style: none;
   color: #efefef;
 }
-
 .footer .grupo1 .box ul li {
   text-align: left;
 }
-
 .footer .grupo1 .box ul a {
   color: #e7eee8;
 }
-
 .footer .grupo1 .box ul a:hover {
   color: #6fb98f;
   text-transform: uppercase;
   text-decoration: none;
 }
-
 .footer .grupo1 .box .redes {
   text-align: center;
 }
-
 .footer .grupo1 .box .redes a {
   display: inline-block;
   text-decoration: none;
@@ -120,19 +106,16 @@ body header div {
   margin-right: 10px;
   transition: all 300ms ease;
 }
-
 .footer .grupo1 .box .redes a:hover {
   color: #c3cf0a;
   transform: scale(150%);
 }
-
 .footer .grupo2 {
   background-color: #555;
   padding: 15px 10px;
   text-align: center;
   color: #fff;
 }
-
 .footer .grupo2 small {
   font-size: 15px;
 }
@@ -322,6 +305,4 @@ body header div {
     //fin mq pag quienes somos
 } 
 // fin mq min 1024px 
-// fin estilo media queries */ /*# sourceMappingURL=estilos.css.map */
-
-/*# sourceMappingURL=estilos.css.map */
+// fin estilo media queries *//*# sourceMappingURL=estilos.css.map */

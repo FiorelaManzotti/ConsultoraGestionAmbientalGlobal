@@ -1,0 +1,215 @@
+// inicio estilo media queries
+
+// inicio mq min 450px hasta max 599px
+
+/* 
+
+/* @media only screen and (min-width: 450px) and (max-width:599px) {
+    //inicio mq header
+    header{
+        .titulo{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-between;
+        }
+    } */
+    //fin mq header
+
+    //inicio mq pag contacto
+/*     #contacto{
+        form{
+            width: 70%;
+        }
+    } */
+    //fin mq pag contacto
+
+    //inicio mq pag servicios
+/*     #servicios{
+        .itemsServicios{
+            padding: 3rem;
+        }
+    } */
+    //fin mq pag servicios
+/* } */
+    //fin mq min 450px hasta max 599px 
+
+    //inicio mq min 600px max 767px 
+    
+   /*  @media only screen and (min-width: 600px) and (max-width:767px) {
+        //inicio mq header
+        header{
+            .titulo{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+        }
+        //fin mq header
+
+        //inicio mq pag contacto
+        #contacto{
+            form{
+                width: 60%;
+                .contact-title{
+                    font-size: 40px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+        //fin mq pag contacto
+        //inicio mq pag servicios
+        #servicios{
+            .itemsServicios{
+                padding: 0rem 8rem;
+            }
+        }
+        //fin mq pag servicios
+    } 
+    //fin mq min 600px max 767px 
+
+    //inicio mq min 768px max 1023px 
+    
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+        //inicio mq header
+        header{
+            .titulo{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                h1{
+                    font-size: 50px;
+                }
+            }
+        } */
+        //fin mq header 
+
+      /*   //inicio mq pag contacto
+        #contacto{
+            form{
+                width: 50%;
+                .contact-title{
+                    font-size: 50px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        //fin mq pag contacto
+
+        //inicio mq pag servicios
+        #servicios{
+            .itemsServicios{
+                padding: 0rem 2rem;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, auto);
+                grid-template-areas: 
+                "item1 item2"
+                "item3 item4"
+                "item5 item6";
+            }
+        }
+        //fin mq pag servicios
+
+        //inicio mq pag quienes somos 
+        #quienesSomos{
+            div{
+                h2{
+                    font-size: 40px;
+                }
+            }
+            .nosotras{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        //fin mq pag quienes somos 
+    }
+    //fin mq min 768px max 1023px 
+
+    // inicio mq min 1024px */
+
+    //inicio mq min 1024px
+
+    @media only screen and (min-width: 1024px) {
+
+        //inicio mq footer
+        .footer{
+            .grupo1{
+                max-width: 1400px;
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }    
+        //fin mq footer
+
+    }
+
+
+    
+    /* @media only screen and (min-width: 1024px) {
+        //inicio mq header
+        header{
+            .titulo{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                padding: 2rem;
+                h1{
+                    font-size: 60px;
+                    text-align: center;
+                    display: flex;
+                    align-items: baseline;
+                    padding-right: 50px;
+                }
+            }
+        }
+        //fin mq header
+
+        //inicio mq pag contacto
+        #contacto{
+            form{
+                width: 50%;
+                .contact-title{
+                    font-size: 50px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+        //fin mq pag contacto
+
+        //inicio mq pag contacto
+        form{
+            line-height: 30px; 
+            padding: 20px;
+            font-size: 22px;
+        } 
+        //fin mq pag contacto
+        //inicio mq pag servicios
+        #servicios{
+            .itemsServicios{
+                padding: 1rem 4rem;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, auto);
+                grid-template-areas: 
+                "item1 item2 item3"
+                "item4 item5 item6";
+            }
+        }
+        //fin mq pag servicios
+
+        //inicio mq pag quienes somos 
+        #quienesSomos{
+            div{
+                h2{
+                    font-size: 50px;
+                }
+            }
+            .nosotras{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            }
+        }
+        //fin mq pag quienes somos
+    } 
+    // fin mq min 1024px 
+    // fin estilo media queries */ 

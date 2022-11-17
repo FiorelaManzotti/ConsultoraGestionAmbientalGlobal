@@ -1,0 +1,91 @@
+//inicio estilo footer
+//inicio mapas
+$colors-footer: (
+    color-p: #efefef,
+    color-h4: #fff,
+    bgcolor: #333,
+    ); 
+//fin mapas 
+
+.footer{
+    width: 100%;
+    background-color: map-get($colors-footer , bgcolor );
+    //inicio contenido principal footer
+    .grupo1{
+        width: 90%;
+        max-width: 800px;
+        margin: auto; 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 35px;
+        padding: 50px 0px;
+        .box{
+            text-align: center; 
+            iframe{
+                width: 250px;
+                height: 150px;
+            }
+            p{
+                color: map-get($colors-footer , color-p );
+                padding: 10px;
+                text-align: center;
+            }    
+            h4{
+                color: map-get($colors-footer , color-h4 );
+                margin-bottom: 25px;
+                font-size: 20px;
+                text-align: center;
+            }       
+            ul{
+                list-style: none;
+                color: #efefef;
+                li{
+                    text-align: left;
+                }
+                //inicio links directos footer
+                a{
+                    color: #e7eee8;
+                    &:hover{
+                        color: #6fb98f;
+                        text-transform: uppercase;
+                        text-decoration: none;
+                    }
+                }
+                //fin links directos footer
+            }
+            //inicio redes sociales
+            .redes{
+                text-align: center;
+                a{
+                    display: inline-block;
+                    text-decoration: none;
+                    width: 45px;
+                    height: 45px;
+                    line-height: 45px;
+                    font-size: 45px;
+                    color: #fff;
+                    margin-right: 10px;
+                    transition: all 300ms ease;
+                    &:hover{
+                        color: #c3cf0a;
+                        transform: scale(150%)
+                    }
+                }
+            }
+            //fin redes sociales
+        }
+    }
+    //fin contenido principal footer
+    //inicio contenido legal footer
+    .grupo2{
+        background-color: #555;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+        small{
+            font-size: 15px;
+        }
+    }
+    //fin contenido legal footer
+}
+//fin estilo footer
