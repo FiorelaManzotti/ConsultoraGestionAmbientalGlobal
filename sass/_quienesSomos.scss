@@ -7,6 +7,7 @@
     flex-direction: column;
     background-image: url(../img/hoja.jpg);
     background-repeat: no-repeat;
+    background-position: 40%;
     background-size: cover;
     h2{
         font-size: 30px;
@@ -14,14 +15,7 @@
         text-align: center;
         text-transform: capitalize;
         padding: 1rem;
-        color: #a7a8a0;
-    }
-    p{
-        font-size: 18px;
-        text-align: center;
-        padding: 1.5rem;
-        color: #1d1d1d;
-        font-weight: 500;
+        color: whitesmoke;
     }
     .nosotras{
         display: flex;
@@ -30,12 +24,28 @@
         margin: 1rem;
         .card{
             margin: 1rem;
-            background-color: red;
+            background-color: #cce0a8;
             .card-text{
                 text-align: center;
                 font-weight: 500;
             }
+            p{
+                color: #1d1d1d;
+            }
         }
     }
+    .seguimos{
+        color: #1d1d1d;
+        font-size: 19px;
+        font-weight: 600;
+        text-align: center;
+        padding: 1rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 80%;
+        height: auto;
+        background-color: #b0d390;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10%
+    }
 }
-
