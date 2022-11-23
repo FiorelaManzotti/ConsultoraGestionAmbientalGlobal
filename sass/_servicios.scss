@@ -1,28 +1,32 @@
 //inicio estilo pag servicios
 #servicios{
-    background-image: url(../img/arboles.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #b0d390;
     div{
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.3);
         h2{
             text-align: center;
             font-size: 45px;
             padding: 0.8rem;
-            color: #b0d390;
+            color: #1d1d1d;
             font-weight: 700;
             text-transform: capitalize;
         }
+        p{
+            font-size: 18px;
+            text-align: center;
+            padding: 1rem;
+            color: #1d1d1d;
+            font-weight: 500;
+        }
     }
     .itemsServicios{
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: auto;
         max-width: 100%; 
-        padding: 0.2rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, auto);
-        grid-gap: 2px;
+        grid-template-rows: repeat(3, auto);
+        grid-gap: 15px;
         grid-template-areas: 
         "item1"
         "item2"
@@ -32,7 +36,7 @@
         "item6"; 
         .card{
             border-radius: 5px;
-            margin: 5px;
+            margin: auto;
             filter: grayscale(85%);
             transition: all 0.7s;
             &:hover{
@@ -41,17 +45,18 @@
                 transition: all 0.7s;
             }
             .card-body{
+                text-align: center;
                 h3{
                     font-size: 25px;
-                    text-align: center;
                     color: whitesmoke;
+                    text-transform: capitalize;
                 }
-                ul{
+                .card-text{
                     list-style: none;
+                    padding: 0%;
                     li{
                         font-size: 0.9rem;
                         color: whitesmoke;
-                        text-align: center;
                         padding: 5px 0px;
                         &:not(:last-child){
                         border-bottom: 1px solid yellow;
