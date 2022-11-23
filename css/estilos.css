@@ -1,45 +1,86 @@
 body {
   margin: 0;
   border: 0;
+  /* #inicio{
+
+
+      div{
+          .nav{
+              .nav-item{
+                  padding: 8px;
+                  a{
+                      text-align: center;
+                      align-content: flex-start;
+                      transition: all 500ms ease;
+                      border-bottom: 2px solid transparent;
+                      font-size: 20px;
+                      color: #1D1D1D;
+                      &:hover{
+                          color: rgb(81, 116, 29);
+                          border-bottom: 2px solid #CCE0A8;
+                          transform: scale(120%);
+                      }
+                  }
+              }
+          }
+      }
+  } */
 }
 
-body header {
+body #inicio {
   background-color: whitesmoke;
   width: 100%;
-  position: -webkit-sticky;
-  position: sticky;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-body header img {
+body #inicio img {
   border-radius: 20px;
   height: 40vh;
 }
 
-body header div {
+body #inicio div {
   width: 90%;
-  background-color: #a7a8A0;
+}
+
+body #inicio div ul {
+  list-style-type: none;
+  background-color: #303331;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0px;
   border-radius: 10px;
-  margin: 10px;
 }
 
-body header div .nav .nav-item {
-  padding: 8px;
-}
-
-body header div .nav .nav-item a {
+body #inicio div ul .active {
+  background-color: #308e36;
+  display: block;
+  padding: 14px 16px;
+  border-radius: 8px;
+  text-decoration: none;
   text-align: center;
-  align-content: flex-start;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+body #inicio div ul li {
+  float: inline-end;
+}
+
+body #inicio div ul li a {
+  display: block;
+  background-color: #303331;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
   transition: all 500ms ease;
   border-bottom: 2px solid transparent;
   font-size: 20px;
-  color: #1D1D1D;
+  color: whitesmoke;
 }
 
-body header div .nav .nav-item a:hover {
-  color: rgb(81, 116, 29);
+body #inicio div ul li a:hover:not(.active) {
   border-bottom: 2px solid #CCE0A8;
   transform: scale(120%);
 }
@@ -406,6 +447,30 @@ body header div .nav .nav-item a:hover {
 
 // inicio mq min 1024px */
 @media only screen and (min-width: 1024px) {
+  #inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #inicio div ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  #inicio div ul li {
+    padding: 0px 30px;
+  }
+  /*         //inicio mq header
+          #inicio{
+              display: inline-block;
+            /*   flex-direction: column; */
+  /*             justify-content: space-between;
+              padding: 2rem; */
+  /*             div{
+                  display: flex;
+                  flex-direction: column;
+              } */
+  /*         } */
   .footer .grupo1 {
     max-width: 1400px;
     grid-template-columns: repeat(4, 1fr);
@@ -426,23 +491,6 @@ body header div .nav .nav-item a:hover {
   }
 }
 /* @media only screen and (min-width: 1024px) {
-    //inicio mq header
-    header{
-        .titulo{
-            display: flex;
-            flex-direction: row-reverse;
-            justify-content: space-between;
-            padding: 2rem;
-            h1{
-                font-size: 60px;
-                text-align: center;
-                display: flex;
-                align-items: baseline;
-                padding-right: 50px;
-            }
-        }
-    }
-    //fin mq header
 
     //inicio mq pag contacto
     #contacto{
