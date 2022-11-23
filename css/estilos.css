@@ -484,7 +484,7 @@ body #inicio div ul li a:hover:not(.active) {
     justify-content: space-evenly;
   }
   #servicios .itemsServicios {
-    padding: 1rem 4rem;
+    padding: 10px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-template-areas: "item1 item2 item3" "item4 item5 item6";
