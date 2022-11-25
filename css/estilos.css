@@ -199,7 +199,7 @@ body #inicio div ul li a:hover:not(.active) {
   text-align: center;
   text-transform: capitalize;
   padding: 1rem;
-  color: rgb(47, 41, 41);
+  color: whitesmoke;
 }
 
 #quienesSomos .nosotras {
@@ -367,24 +367,25 @@ body #inicio div ul li a:hover:not(.active) {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-bottom: 30px;
   text-transform: uppercase;
-  color: greenyellow;
+  color: whitesmoke;
 }
 
 #contacto form .label {
   font-size: 18px;
   font-weight: 600;
+  color: whitesmoke;
 }
 
 #contacto form .input {
   height: 30px;
   outline: none;
   padding: 5px 0;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #c3cf0a;
   border-top: none;
   border-left: none;
   border-right: none;
   width: 100%;
-  color: #121212;
+  color: whitesmoke;
   background-color: transparent;
 }
 
@@ -392,21 +393,21 @@ body #inicio div ul li a:hover:not(.active) {
   height: 100px;
   outline: none;
   padding: 5px 0;
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #c3cf0a;
   border-top: none;
   border-left: none;
   border-right: none;
   width: 100%;
-  color: #121212;
+  color: whitesmoke;
   background-color: transparent;
   resize: none;
 }
 
 #contacto form .boton {
   padding: 18px 55px;
-  background-color: #121212;
+  background-color: #b0d390;
   border-radius: 50px;
-  color: #f2f2f2;
+  color: #1d1d1d;
   font-weight: 600;
   border: none;
   font-size: 18px;
@@ -414,7 +415,29 @@ body #inicio div ul li a:hover:not(.active) {
 }
 
 #contacto form .boton:hover {
-  background-color: red;
+  background-color: #c3cf0a;
+  color: #fff;
+}
+
+#contacto form p {
+  color: whitesmoke;
+  padding: 0px 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#contacto form p a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 25px;
+  color: #c3cf0a;
+  margin-right: 10px;
+  transition: all 300ms ease;
+}
+
+#contacto form p a:hover {
+  transform: scale(150%);
 }
 
 /* 
