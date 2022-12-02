@@ -289,23 +289,22 @@ body #inicio div ul li a:hover:not(.active) {
 }
 
 #contacto {
+  background-image: url(../img/hojasSecas.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-#contacto video {
-  position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100vh;
+  align-items: center;
 }
 #contacto form {
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
   position: relative;
-  align-items: flex-start;
+  justify-content: space-between;
   padding: 30px;
   width: 50%;
   height: 100vh;
@@ -362,126 +361,24 @@ body #inicio div ul li a:hover:not(.active) {
   background-color: #c3cf0a;
   color: #fff;
 }
-#contacto form p {
-  color: whitesmoke;
-  padding: 0px 15px;
-  font-size: 20px;
-  font-weight: 600;
+
+#clientes {
+  background-color: #b0d390;
 }
-#contacto form p a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 15px;
-  font-size: 25px;
-  color: #c3cf0a;
-  margin-right: 10px;
-  transition: all 300ms ease;
+#clientes h3 {
+  text-align: center;
+  font-size: 35px;
+  padding: 0.8rem;
+  color: #1d1d1d;
+  font-weight: 500;
+  text-transform: uppercase;
 }
-#contacto form p a:hover {
-  transform: scale(150%);
-}
-
-/* .clientes{
-    p{
-        font-size: 30px;
-        font-weight: 600;
-        color: #1d1d1d;
-        text-align: center;
-        padding: 20px;
-        background-color: #959ba2;
-        text-transform: uppercase;
-        border-radius: 10%;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .wrapper{
-        display: flex;
-        max-width: 1200px;
-        position: relative;
-        i{
-            top: 50%;
-            height: 44px;
-            width: 44px;
-            color: #343F4F;
-            cursor: pointer;
-            font-size: 1.15rem;
-            position: absolute;
-            text-align: center;
-            line-height: 44px;
-            background: #fff;
-            border-radius: 50%;
-            transform: translateY(-50%);
-            transition: transform 0.1s linear;
-            &:active{
-                transform: translateY(-50%) scale(0.9);
-            }
-            &:hover{
-                background: #f2f2f2;
-            }
-            &:first-child{
-                left: -22px;
-                display: none;
-            }
-            &:last-child{
-                right: -22px;
-            }
-        }
-        .carousel{
-            font-size: 0px;
-            cursor: pointer;
-            overflow: hidden;
-            white-space: nowrap;
-            scroll-behavior: smooth;
-            .dragging{
-                cursor: grab;
-                scroll-behavior: auto;
-                img{
-                    pointer-events: none;
-                }
-            }
-            img{
-                height: 340px;
-                object-fit: cover;
-                user-select: none;
-                margin-left: 14px;
-                width: calc(100% / 3);
-                &:first-child{
-                    margin-left: 0px;
-                }
-            }
-        }
-    }
-}
-
-
-
-@media screen and (max-width: 900px) {
-
-    .wrapper{
-        .carousel{
-            img{
-                width: calc(100% / 2);
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .wrapper{
-        .carousel{
-            img{
-                width: 100%;;
-            }
-        }
-    }
-} */
-.clientes .gallery {
+#clientes .gallery {
   width: 90%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
+  background-color: #c3cf0a;
   display: grid;
   grid-template-columns: repeat(auto-fit, 133px);
   grid-auto-rows: 200px;
@@ -489,7 +386,7 @@ body #inicio div ul li a:hover:not(.active) {
   gap: 1rem;
   align-items: center;
 }
-.clientes .gallery img {
+#clientes .gallery img {
   width: 100%;
   height: 70%;
   -o-object-fit: contain;
